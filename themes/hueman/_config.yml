@@ -31,8 +31,8 @@ widgets:
     # - recent_posts
     - category
     # - archive
-    - tag
-    - tagcloud
+    # - tag
+    # - tagcloud
     # - links
 
 # Search

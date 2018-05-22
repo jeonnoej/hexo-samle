@@ -1,7 +1,6 @@
 ---
 title: Total Search Guide
-categories:
-  - search
+categories: []
 ---
 # Total Search Message Rules
 

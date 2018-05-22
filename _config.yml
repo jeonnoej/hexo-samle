@@ -84,4 +84,5 @@ deploy:
 # Auto Cateogory
 auto_category:
   enable: true
+  depth: 10
   
