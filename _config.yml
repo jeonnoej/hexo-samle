@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 통검 가이드
-subtitle: 모듈 가이드
-description: Kakao 통합검색 FE 가이드
-keywords: javascript, guide
-author: Yosi.Jeon
+title: Kakaocorp 통합검색 FE 가이드
+subtitle: Kakaocorp 통합검색 FE 가이드
+description: Kakaocorp 통합검색 FE 가이드
+keywords: javascript, js, search, fe, guide
+author: Kakaocorp, Inc.
 language: ko
 timezone: Asia/Seoul
 
@@ -84,3 +84,4 @@ deploy:
 # Auto Cateogory
 auto_category:
   enable: true
+  

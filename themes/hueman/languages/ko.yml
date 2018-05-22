@@ -15,8 +15,8 @@ nav:
         other: 'of %d'
 sidebar:
     follow: '팔로우'
-    newer: '새로운'
-    older: '오래된'
+    newer: 'Next'
+    older: 'Prev'
     recents: '최근 글'
     archives: '아카이브'
     categories: '카테고리'
