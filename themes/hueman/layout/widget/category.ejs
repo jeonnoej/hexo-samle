@@ -1,0 +1,11 @@
+<% if (site.categories.length) { %>
+    <div class="widget-wrap widget-list">
+        <!-- REMOVE -->
+        <!--
+        <h3 class="widget-title"><%= __('sidebar.categories') %></h3>
+        -->
+        <div class="widget">
+            <%- list_categories() %>
+        </div>
+    </div>
+<% } %>
