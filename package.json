@@ -5,6 +5,16 @@
   "hexo": {
     "version": "3.7.1"
   },
+  "scripts": {
+    "hexo:clean": "hexo clean",
+    "hexo:generate": "hexo g",
+    "hexo:watch": "hexo s",
+    "hexo:start": "hexo server -s",
+    "build": "run-s hexo:clean hexo:generate",
+    "dev": "run-s build hexo:watch",
+    "start": "run-s build hexo:start",
+    "write": "hexo new doc"
+  },
   "dependencies": {
     "hexo": "^3.2.0",
     "hexo-auto-category": "^0.1.6",
@@ -17,5 +27,8 @@
     "hexo-renderer-marked": "^0.3.0",
     "hexo-renderer-stylus": "^0.3.1",
     "hexo-server": "^0.2.0"
+  },
+  "devDependencies": {
+    "npm-run-all": "^4.1.3"
   }
 }

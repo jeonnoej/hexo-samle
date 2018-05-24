@@ -137,7 +137,29 @@
 .article-tag
     .tag-link
         &:before
-            content: "#"
+            content: ""
+            padding-left: 5px
+        &:after
+            content: ""
+            padding-right: 5px
+
+.article-tag
+    font-size: 11px;        
+
+.article-tag
+    .tag-link[href$="MO/"]
+        background: #008672
+        color: #FFF
+
+.article-tag
+    .tag-link[href$="PC/"]
+        background: #7057ff
+        color: #FFF
+
+.article-tag
+    .tag-link[href$="DEPRECATED/"]
+        background: #cb2431
+        color: #FFF
 
 .article-entry
     @extend $base-style

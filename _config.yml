@@ -27,6 +27,7 @@ category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
+  - demo/**
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -85,4 +86,39 @@ deploy:
 auto_category:
   enable: true
   depth: 10
-  
+
+# hexo-generator-json-content
+jsonContent:
+  meta: true
+  keywords: false # language name option
+  dateFormat: undefined # format string
+  pages:
+    title: false
+    slug: false
+    date: false
+    updated: false
+    comments: false
+    path: false
+    link: false
+    permalink: false
+    excerpt: false
+    keywords: false # but only if root keywords option language was set
+    text: false
+    raw: false
+    content: false
+  posts:
+    title: true
+    slug: true
+    date: true
+    updated: true
+    comments: true
+    path: true
+    link: true
+    permalink: true
+    excerpt: true
+    keywords: true # but only if root keywords option language was set
+    text: true
+    raw: false
+    content: false
+    categories: true
+    tags: true
